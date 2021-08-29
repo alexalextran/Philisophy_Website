@@ -31,7 +31,10 @@
   .content{
     flex: 4;
     min-height: 60vh;
-    font-family:Georgia, 'Times New Roman', Times, serif
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-image: url("file:///C:/Users/Alex%20Tran/Downloads/wallpaperflare.com_wallpaper%20(3).jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
   }
   footer {
     background: yellowgreen;
@@ -118,7 +121,8 @@
   .liphil{
   width: auto;
   padding: 30px;
-  margin: 40px;
+  margin: 60px;
+  margin-bottom: 60px;
   background: #EEE2DC;
   box-shadow: 0 1px 1px rgba(0,0,0,.3);
   }
