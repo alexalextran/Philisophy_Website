@@ -7,7 +7,6 @@
     min-height: 100vh;
     flex-direction: row;
     margin: 0;
-   
   }
   .col-1 {
     background: #123c69;
@@ -124,7 +123,7 @@
   margin: 60px;
   margin-bottom: 60px;
   background: #EEE2DC;
-  box-shadow: 0 1px 1px rgba(0,0,0,.3);
+  box-shadow: 10px 10px 5px rgb(54, 54, 54);
   }
 
 

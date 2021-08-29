@@ -1,0 +1,57 @@
+body{
+    position: relative;
+    
+}
+
+.header{
+    width:100%;
+    height: 100px;
+    background-color: red;
+    text-align: center;
+    margin-top: 0px;
+}
+
+#aboutme{
+    width: 800px;
+    height: 450px;
+    background-color: aqua;
+    position: absolute;
+    top: 100%;
+    left: 12%;
+    min-width: 800px;
+    min-height: 450px;
+}
+
+#whyimade{
+    width: 800px;
+    height: 450px;
+    background-color: aqua;
+    position: absolute;
+    top: 100%;
+    left: 12%;
+    transform: translateY(490px);
+    min-width: 800px;
+    min-height: 450px;
+}
+
+#recommendations{
+ width: 400px;
+ height: 400px;
+background-color: blue;
+position: absolute;
+top: 100%;
+left: 63%;
+min-width: 400px;
+    min-height: 400px;
+}
+
+#sociallinks{
+    width: 400px;
+    height: 350px;
+    background-color: aquamarine;
+    position: absolute;
+top: 460%;
+left: 63%;
+min-width: 400px;
+    min-height: 350px;
+}
