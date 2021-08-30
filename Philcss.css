@@ -83,7 +83,7 @@
   margin-left: 480px;
   list-style-type: none;
   font-style: italic;
-  color: #df6161cc;
+  color: #5a4dd3;
 }
 
 
@@ -132,13 +132,6 @@
   }
 
 
-
-  *,
-:before,
-:after {
-  box-sizing: border-box;
-}
-
 .unstyled {
   list-style: none;
   padding: 0;
@@ -164,61 +157,34 @@
   background: #35302d;
 }
 
-.logo {
-  font: 300 2em "Source Sans Pro", Helvetica, Arial, sans-serif;
+.logo a {
+  font: 300 1em "Source Sans Pro", Helvetica, Arial, sans-serif;
   text-align: center;
   padding: 0;
   margin: 0;
-}
-.logo a {
   display: block;
-  padding: 1em 0;
   color: #dfdbd9;
   text-decoration: none;
   transition: 0.15s linear color;
 }
-.logo a:hover {
-  color: #fff;
-}
+
 .logo a:hover span {
-  color: #df4500;
+  color: #A16161;
 }
 .logo span {
   font-weight: 700;
   transition: 0.15s linear color;
 }
 
-
 .main-nav a {
   padding: 1.1em 0;
   color: #dfdbd9;
   font: 400 1.125em  'Quicksand', sans-serif;
   text-align: center;
-  text-transform: lowercase;
+
 }
 .main-nav a:hover {
   color: #fff;
-}
-
-.social-links {
-  border-bottom: solid 1px #3c3735;
-}
-.social-links li {
-  width: 50%;
-  border-left: solid 1px #3c3735;
-}
-.social-links li:first-child {
-  border: none;
-}
-.social-links a {
-  display: block;
-  height: 5.5em;
-  text-align: center;
-  color: #3c3735;
-  font: 0.75em/5.5em "Source Sans Pro", Helvetica, Arial, sans-serif;
-}
-.social-links a:hover {
-  color: #dfdbd9;
 }
 
 .list-hover-slide li {
@@ -240,7 +206,6 @@
   top: 0;
   width: 100%;
   height: 100%;
-
   background: #A16161;
   transition: 0.35s ease left;
 }
