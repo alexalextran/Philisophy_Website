@@ -9,7 +9,7 @@ body{
 .header{
     width:90%;
     height: 100px;
-    background-color: red;
+    background-color: rgb(100, 100, 182);
     text-align: center;
     margin-top: 0px;
     box-shadow:  0px 0px 20px rgb(78, 76, 76);
@@ -46,6 +46,22 @@ img{
     min-width: 800px;
     min-height: 450px;
     box-shadow: 0px 0px 20px rgb(78, 76, 76);
+}
+
+.toptextlong, .textlong{
+    padding: 10px;
+}
+
+.textlong{
+    transform: translateY(-70px);
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.toptextlong{
+    font-size: 24px;
+    font-weight:900;
+    transform: translateY(-40px);
 }
 
 #recommendations{

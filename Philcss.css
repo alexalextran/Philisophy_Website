@@ -26,10 +26,10 @@
     display: flex;
     flex-direction: row;
     border: #251e3e 5px solid ;
-    color: #ff0000;
-    font-size: 18px;
-    font-weight: 400;
+    color: #1900ff;
+    font-size: 19px;
     background:  #EDC7B7;
+    font-weight: 1000px ;
     
   }
   .content{
@@ -130,6 +130,7 @@
   margin-bottom: 60px;
   background: #EEE2DC;
   box-shadow: 10px 10px 5px rgb(54, 54, 54);
+  font-weight: 800;
   }
 
 
