@@ -8,6 +8,11 @@
     flex-direction: row;
     margin: 0;
   }
+
+  #title{
+    font-family: 'Quicksand', sans-serif;
+  }
+  
   .col-1 {
     background: #123c69;
     flex: 1;
@@ -30,7 +35,7 @@
   .content{
     flex: 4;
     min-height: 60vh;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Quicksand', sans-serif;
     background-image: url("file:///C:/Users/Alex%20Tran/Downloads/wallpaperflare.com_wallpaper%20(3).jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -111,6 +116,7 @@
     border-width: 0px 2px 2px 0px;
     text-align: center;
     border-radius: 0px 0px 30px 30px;
+    font-family: 'Quicksand', sans-serif;
   }
 
 
@@ -192,7 +198,7 @@
 .main-nav a {
   padding: 1.1em 0;
   color: #dfdbd9;
-  font: 400 1.125em "Source Sans Pro", Helvetica, Arial, sans-serif;
+  font: 400 1.125em  'Quicksand', sans-serif;
   text-align: center;
   text-transform: lowercase;
 }
