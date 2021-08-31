@@ -26,12 +26,11 @@ body{
     min-height: 450px;
     box-shadow:  0px 0px 20px rgb(78, 76, 76);
 }
-
 img{
     object-fit: cover;
 }
 
-#horizonimg{
+#img{
     object-fit: contain;
 }
 
@@ -74,7 +73,24 @@ left: 63%;
 min-width: 400px;
     min-height: 400px;
     box-shadow:  0px 0px 20px rgb(78, 76, 76);
+    display: flex;
+    flex-direction: column;
+  
 }
+
+#toprec{
+    flex: 2;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#bottomrec{
+    display: flex;
+    flex-direction: row;
+    flex: 5;
+}
+
 
 #sociallinks{
     width: 400px;
@@ -86,4 +102,15 @@ left: 63%;
 min-width: 400px;
     min-height: 350px;
     box-shadow:  0px 0px 20px rgb(78, 76, 76);
+    display: flex;
+    flex-direction: column;
+}
+#scltitle{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#scllnks{
+    margin-bottom: 10px;
 }
