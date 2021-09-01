@@ -169,7 +169,6 @@ a:link, a:visited, a:active {
 
   /*link animation*/
   .link:hover {
-    color: #3cbc8d;
     background: rgb(88, 45, 70);
     border-radius: 4px;
     

@@ -48,7 +48,7 @@
  .mainheader{
    display: flex;
    flex-direction: column;
-   height: 28vh;
+   height: 33vh;
    background-color: #A35843;
    color: white;
    
@@ -182,7 +182,10 @@
   color: #dfdbd9;
   font: 400 1.125em  'Quicksand', sans-serif;
   text-align: center;
+}
 
+.sph{
+  font: 400 12px 'Quicksand', sans-serif;
 }
 .main-nav a:hover {
   color: #fff;
