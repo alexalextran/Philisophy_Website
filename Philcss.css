@@ -16,6 +16,7 @@
   .col-1 {
     background: rgb(88, 45, 70);
     flex: 1;
+    max-width: 300px;
   }
   .col-2 {
     display: flex;
@@ -35,7 +36,7 @@
     flex: 4;
     min-height: 60vh;
     font-family: 'Quicksand', sans-serif;
-    background-image: url("file:///C:/Users/Alex%20Tran/Downloads/wallpaperflare.com_wallpaper%20(3).jpg");
+    background-image: url("file:///C:/Users/Alex%20Tran/Desktop/Screenshots/wallpaperflare.com_wallpaper%20(3).jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     border-top: solid rgb(88, 45, 70) 10px;
@@ -123,7 +124,7 @@
   }
   .liphil{
   width: auto;
-  padding: 20px;
+  padding: 10px 20px 10px 20px;
   margin: 60px;
   margin-bottom: 60px;
   background: #EEE2DC;
@@ -227,6 +228,7 @@
 }
 .underlined:hover {
   background-size: 100% 100%;
+  cursor: default;
 }
 .underlined--thin {
   background-image: linear-gradient(to right, black 0, black 100%);
