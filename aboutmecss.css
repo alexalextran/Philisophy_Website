@@ -91,6 +91,10 @@ min-width: 400px;
     flex: 5;
 }
 
+#btrectxt{
+    padding: 5px;
+}
+
 
 #sociallinks{
     width: 400px;
