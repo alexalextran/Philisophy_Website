@@ -123,7 +123,7 @@
   }
   .liphil{
   width: auto;
-  padding: 30px;
+  padding: 20px;
   margin: 60px;
   margin-bottom: 60px;
   background: #EEE2DC;
@@ -214,4 +214,20 @@
 }
 
 
-
+.underlined {
+  color: #1900ff;
+  flex: 1;
+  font-size: 18px;
+  line-height: 1.7;
+  text-decoration: none;
+  background-position: 0 1.2em;
+  background-size: 0 100%;
+  background-repeat: no-repeat;
+  transition: background 0.5s;
+}
+.underlined:hover {
+  background-size: 100% 100%;
+}
+.underlined--thin {
+  background-image: linear-gradient(to right, black 0, black 100%);
+}
