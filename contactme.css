@@ -11,18 +11,19 @@
     line-height: 40px;
     color: #fff;
     text-align: center;
-    font-size: 15px;
+  
     margin: 10px;
     position: relative;
     border: 2px solid #fff;
     border-radius: 4px;
     transition: background-color 0.3s linear, color 0.3s linear;
-    font-weight: 700;
+    font-size: 16px;
+    font-weight: 600;
   }
 
   /*headerdesign*/
   .headerlink{
-    background-color: #A16161;
+    background-color: #A35843;
     text-align: center;
     align-items: center;
     padding: 1rem;
@@ -44,7 +45,7 @@ body {
   justify-content: space-around;
   align-items: baseline;
   height: 100vh;
-  background: linear-gradient(120deg,#A35843 50%, rgb(88, 45, 70) 50%);
+  background: linear-gradient(120deg,#A16161 50%, rgb(88, 45, 70) 50%);
   border: #111 solid 4px;
 }
 
