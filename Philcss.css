@@ -42,7 +42,11 @@
     border-top: solid rgb(88, 45, 70) 10px;
   }
   footer {
-    background: yellowgreen;
+    background: #A16161;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+
   }
 
  .mainheader{
