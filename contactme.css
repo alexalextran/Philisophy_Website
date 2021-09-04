@@ -78,7 +78,7 @@ body {
 /*link button design*/
 .main .bio .bio-link:hover {
     color: #1900ff;
-    background: rgba(255, 255, 255, 0.9);
+  
     border-radius: 4px;
 }
 
