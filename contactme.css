@@ -1,5 +1,5 @@
 .bio-link:hover {
-    color: #3cbc8d;
+    color: #1900ff;
     background: rgba(255, 255, 255, 0.9);
 }
 
@@ -17,26 +17,22 @@
     border: 2px solid #fff;
     border-radius: 4px;
     transition: background-color 0.3s linear, color 0.3s linear;
+    font-weight: 700;
   }
 
   /*headerdesign*/
   .headerlink{
-    background-image: linear-gradient(to right, gray, black);
+    background-color: #A16161;
     text-align: center;
     align-items: center;
-    border-radius: 10px;
     padding: 1rem;
     transform: color 0.3s linear;
     }
 
-    /*headerlink hover design*/
-    .headerlink:hover{
-      color:#00ff99;
-  }
 
 /*design of body text*/
 body {
-font-family: Arial, sans-serif;
+    font-family: 'Quicksand', sans-serif;
   font-size: 16px;
   font-weight: 300;
   color: white;
@@ -48,7 +44,8 @@ font-family: Arial, sans-serif;
   justify-content: space-around;
   align-items: baseline;
   height: 100vh;
-  background: linear-gradient(120deg,rgba(224, 76, 76, 0.918) 50%, #ffffff 50%);
+  background: linear-gradient(120deg,#A35843 50%, rgb(88, 45, 70) 50%);
+  border: #111 solid 4px;
 }
 
 /*left side size and placement*/
@@ -80,17 +77,18 @@ font-family: Arial, sans-serif;
 
 /*link button design*/
 .main .bio .bio-link:hover {
-    color: #3cbc8d;
+    color: #1900ff;
     background: rgba(255, 255, 255, 0.9);
     border-radius: 4px;
 }
 
 /*get in touch text*/
 .contact {
-  color: rgba(224, 76, 76, 0.918);
+  color: white;
   text-transform: uppercase;
   letter-spacing: 3px;
   font-size: 1.25rem;
+  font-family: 'Quicksand', sans-serif;
 }
 
 /*input form design*/
@@ -135,13 +133,13 @@ a:link, a:visited, a:active {
 /*Input bottom border color*/
 .main .contact form input:focus,
 .main .contact form textarea:focus {
-  border-bottom: 1px solid #3cbc8d;
+  border-bottom: 1px solid #1900ff;
 }
 
 /*Input text color*/
 .main .contact form input::placeholder,
 .main .contact form textarea::placeholder {
-  color: #3cbc8d;
+  color: #1900ff;
 }
  
 .contactbutton:hover{
@@ -150,7 +148,7 @@ a:link, a:visited, a:active {
 
 /*button design*/
   .contactbutton{
-      background-color: #3cbc8d;
+      background-color: #1900ff;
       border-radius: 20px;
       color: #fff;
       position: relative;
